@@ -1,0 +1,1621 @@
+{
+  "excel": {
+    "create a table with 6 rows and 5 columns starting at A1, bold the header row A1:E1, set yellow background on A1:E1, set font size 14 on A1:E1 and autofit columns A to E": [
+      {
+        "action": "create_table",
+        "rows": 6,
+        "cols": 5,
+        "start_cell": "A1"
+      },
+      {
+        "action": "set_bold",
+        "range": "A1:E1",
+        "bold": true
+      },
+      {
+        "action": "set_bg_color",
+        "range": "A1:E1",
+        "color": "yellow"
+      },
+      {
+        "action": "set_font_size",
+        "range": "A1:E1",
+        "size": 14
+      },
+      {
+        "action": "autofit_columns",
+        "range": "A:E"
+      }
+    ],
+    "write Sales in A1, write 1500 in B1, write 2300 in B2, write 1800 in B3, write the sum formula of B1 to B3 in B4 and bold B4": [
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "Sales"
+      },
+      {
+        "action": "write_cell",
+        "cell": "B1",
+        "value": 1500
+      },
+      {
+        "action": "write_cell",
+        "cell": "B2",
+        "value": 2300
+      },
+      {
+        "action": "write_cell",
+        "cell": "B3",
+        "value": 1800
+      },
+      {
+        "action": "write_formula",
+        "cell": "B4",
+        "formula": "=SUM(B1:B3)"
+      },
+      {
+        "action": "set_bold",
+        "range": "B4",
+        "bold": true
+      }
+    ],
+    "create a new file and write Sales in A1, write 1500 in B1, write 2300 in B2, write 1800 in B3, write the sum formula of B1 to B3 in B4 and bold B4 and set font Arial on range A1:F20, set font size 11 on A1:F20, set thin border on A1:F20, bold A1:F1, set blue background on A1:F1 and set font color white on A1:F1": [
+      {
+        "action": "create_workbook",
+        "params": {}
+      },
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "Sales"
+      },
+      {
+        "action": "write_cell",
+        "cell": "B1",
+        "value": 1500
+      },
+      {
+        "action": "write_cell",
+        "cell": "B2",
+        "value": 2300
+      },
+      {
+        "action": "write_cell",
+        "cell": "B3",
+        "value": 1800
+      },
+      {
+        "action": "write_formula",
+        "cell": "B4",
+        "formula": "=SUM(B1:B3)"
+      },
+      {
+        "action": "set_bold",
+        "range": "B4",
+        "bold": true
+      },
+      {
+        "action": "set_font_name",
+        "range": "A1:F20",
+        "name": "Arial"
+      },
+      {
+        "action": "set_font_size",
+        "range": "A1:F20",
+        "size": 11
+      },
+      {
+        "action": "set_border",
+        "range": "A1:F20",
+        "style": "thin"
+      },
+      {
+        "action": "set_bold",
+        "range": "A1:F1",
+        "bold": true
+      },
+      {
+        "action": "set_bg_color",
+        "range": "A1:F1",
+        "color": "blue"
+      },
+      {
+        "action": "set_font_color",
+        "range": "A1:F1",
+        "color": "white"
+      }
+    ],
+    "create a new workbook, create a table with 10 rows and 4 columns at A1, write Month in A1, write Revenue in B1, write Expenses in C1, write Profit in D1, bold A1:D1, set yellow background on A1:D1, set font size 12 on A1:D10, set thin border on A1:D10, autofit columns A to D and save the workbook": [
+      {
+        "action": "create_workbook",
+        "params": {}
+      },
+      {
+        "action": "create_table",
+        "rows": 10,
+        "cols": 4,
+        "start_cell": "A1"
+      },
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "Month"
+      },
+      {
+        "action": "write_cell",
+        "cell": "B1",
+        "value": "Revenue"
+      },
+      {
+        "action": "write_cell",
+        "cell": "C1",
+        "value": "Expenses"
+      },
+      {
+        "action": "write_cell",
+        "cell": "D1",
+        "value": "Profit"
+      },
+      {
+        "action": "set_bold",
+        "range": "A1:D1",
+        "bold": true
+      },
+      {
+        "action": "set_bg_color",
+        "range": "A1:D1",
+        "color": "yellow"
+      },
+      {
+        "action": "set_font_size",
+        "range": "A1:D10",
+        "size": 12
+      },
+      {
+        "action": "set_border",
+        "range": "A1:D10",
+        "style": "thin"
+      },
+      {
+        "action": "autofit_columns",
+        "range": "A:D"
+      },
+      {
+        "action": "save_workbook",
+        "params": {}
+      }
+    ],
+    "Create a new file and name it as\"demo\" and then create a table with 5 rows and 6 columns from the cell B4": [
+      {
+        "action": "create_workbook"
+      }
+    ],
+    "create a file and save it as demo": [
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "save the workbook": [
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "create a table with 4 rows and 5 columns": [
+      {
+        "action": "create_table",
+        "rows": 4,
+        "cols": 5,
+        "start_cell": "A1"
+      }
+    ],
+    "create a table with 5 rows and 4 columns starting at A1": [
+      {
+        "action": "create_table",
+        "rows": 5,
+        "cols": 4,
+        "start_cell": "A1"
+      }
+    ],
+    "create a new workbook": [
+      {
+        "action": "create_workbook"
+      }
+    ],
+    "set yellow background on range A1:E1": [
+      {
+        "action": "write_formula",
+        "cell": "E1",
+        "formula": "=ROUND({cell},{decimals})"
+      }
+    ],
+    "bold the header row A1:E1": [
+      {
+        "action": "set_bold",
+        "range": "A1:E1",
+        "bold": true
+      }
+    ],
+    "create a new file with a table with 5 rows and 6 columns startingf from A1": [
+      {
+        "action": "create_workbook"
+      }
+    ],
+    "create a new workbook named demo": [
+      {
+        "action": "create_workbook"
+      }
+    ],
+    "create a new workbook named demo and include a table with 5 rows and 6 columns starting from c3 and fill a1:a4 with 2, 3, 4,5": [
+      {
+        "action": "create_workbook"
+      }
+    ],
+    "create a new workbook named demo and include a table with 5 rows and 6 columns starting from c3 and fill the values from a1:a4 with 2, 3, 4, 5 respectively": [
+      {
+        "action": "create_workbook"
+      },
+      {
+        "action": "create_table",
+        "rows": 5,
+        "cols": 6,
+        "start_cell": "C3"
+      },
+      {
+        "action": "write_range",
+        "start_cell": "A1",
+        "values": [
+          [
+            2
+          ],
+          [
+            3
+          ],
+          [
+            4
+          ],
+          [
+            5
+          ]
+        ]
+      }
+    ],
+    "create a workbook and rename the sheet to 'Inventory_2024', then write the values [['Item', 'Count'], ['Apples', 50], ['Oranges', 30]] starting at A1, then insert a row at index 2 and write ['Bananas', 20] in cell A2, and finally set the font of the entire range A1:B4 to bold": [
+      {
+        "action": "create_workbook"
+      },
+      {
+        "action": "rename_sheet",
+        "new_name": "Inventory_2024"
+      },
+      {
+        "action": "write_range",
+        "start_cell": "A1",
+        "values": [
+          [
+            "Item",
+            "Count"
+          ],
+          [
+            "Apples",
+            50
+          ],
+          [
+            "Oranges",
+            30
+          ]
+        ]
+      },
+      {
+        "action": "insert_row",
+        "row": 2
+      },
+      {
+        "action": "write_cell",
+        "cell": "A2",
+        "value": "Bananas"
+      },
+      {
+        "action": "write_cell",
+        "cell": "B2",
+        "value": 20
+      },
+      {
+        "action": "set_bold",
+        "range": "A1:B4",
+        "bold": true
+      }
+    ],
+    "create a workbook and rename the sheet to 'Project_Budget_2026', then write the values [['Category', 'Estimate', 'Actual'], ['Development', 5000, 4800], ['Design', 2000, 2100], ['Testing', 1500, 1200]] starting at A1, then set the background color of A1:C1 to black and the font color to white, and finally set the number format of cells B2:C4 to '$#,##0'": [
+      {
+        "action": "create_workbook"
+      },
+      {
+        "action": "rename_sheet",
+        "new_name": "Project_Budget_2026"
+      },
+      {
+        "action": "write_range",
+        "start_cell": "A1",
+        "values": [
+          [
+            "Category",
+            "Estimate",
+            "Actual"
+          ],
+          [
+            "Development",
+            5000,
+            4800
+          ],
+          [
+            "Design",
+            2000,
+            2100
+          ],
+          [
+            "Testing",
+            1500,
+            1200
+          ]
+        ]
+      },
+      {
+        "action": "set_bg_color",
+        "range": "A1:C1",
+        "color": "000000"
+      },
+      {
+        "action": "set_font_color",
+        "range": "A1:C1",
+        "color": "FFFFFF"
+      },
+      {
+        "action": "set_number_format",
+        "range": "B2:C4",
+        "format": "$#,##0"
+      }
+    ],
+    "create a workbook and rename the sheet to 'Milestone_Tracker', then write the values [['Phase', 'Status', 'Days'], ['Research', 'Done', 5], ['Coding', 'Pending', 15], ['Testing', 'Pending', 7]] starting at B2, then insert a row at index 4 and write ['Design', 'Done', 10] in row 4, then set the background color of cells C3 and C5 to 'green' and finally write a formula in cell D7 that calculates the total days from D3 to D6.": [
+      {
+        "action": "create_workbook"
+      },
+      {
+        "action": "rename_sheet",
+        "new_name": "Milestone_Tracker"
+      },
+      {
+        "action": "write_range",
+        "start_cell": "B2",
+        "values": [
+          [
+            "Phase",
+            "Status",
+            "Days"
+          ],
+          [
+            "Research",
+            "Done",
+            5
+          ],
+          [
+            "Coding",
+            "Pending",
+            15
+          ],
+          [
+            "Testing",
+            "Pending",
+            7
+          ]
+        ]
+      },
+      {
+        "action": "insert_row",
+        "row": 4
+      },
+      {
+        "action": "write_cell",
+        "cell": "B4",
+        "value": "Design"
+      },
+      {
+        "action": "write_cell",
+        "cell": "C4",
+        "value": "Done"
+      },
+      {
+        "action": "write_cell",
+        "cell": "D4",
+        "value": 10
+      },
+      {
+        "action": "set_bg_color",
+        "range": "C3",
+        "color": "00B050"
+      },
+      {
+        "action": "set_bg_color",
+        "range": "C5",
+        "color": "00B050"
+      },
+      {
+        "action": "write_formula",
+        "cell": "D7",
+        "formula": "=SUM(D3:D6)"
+      }
+    ],
+    "create a workbook and rename the sheet to 'Expense_Audit_2026', then write the values [['Date', 'Category', 'Amount'], ['2026-01-01', 'Server', 1200], ['2026-01-02', 'API_Calls', 450], ['2026-01-03', 'Domain', 20]] starting at A1, then insert a row at index 2 and write ['2026-01-01', 'Marketing', 800] in row 2, then set the background color of the entire row 1 to 'navy' and font color to 'white', then apply a 'currency' number format to the range C2:C5, and finally write a formula in C6 that sums the total expenses and make that cell bold.": [
+      {
+        "action": "create_workbook"
+      },
+      {
+        "action": "rename_sheet",
+        "new_name": "Expense_Audit_2026"
+      },
+      {
+        "action": "write_range",
+        "start_cell": "A1",
+        "values": [
+          [
+            "Date",
+            "Category",
+            "Amount"
+          ],
+          [
+            "2026-01-01",
+            "Server",
+            1200
+          ],
+          [
+            "2026-01-02",
+            "API_Calls",
+            450
+          ],
+          [
+            "2026-01-03",
+            "Domain",
+            20
+          ]
+        ]
+      },
+      {
+        "action": "insert_row",
+        "row": 2
+      },
+      {
+        "action": "write_cell",
+        "cell": "A2",
+        "value": "2026-01-01"
+      },
+      {
+        "action": "write_cell",
+        "cell": "B2",
+        "value": "Marketing"
+      },
+      {
+        "action": "write_cell",
+        "cell": "C2",
+        "value": 800
+      },
+      {
+        "action": "set_bold",
+        "range": "C2:C5",
+        "bold": true
+      }
+    ],
+    "create a table with 5 rows and 10 columns starting at A1": [
+      {
+        "action": "create_table",
+        "rows": 5,
+        "cols": 10,
+        "start_cell": "A1"
+      }
+    ],
+    "create a workbook and rename the sheet to 'Milestone_Tracker', then write the values [['Phase', 'Status', 'Days'], ['Research', 'Done', 5], ['Coding', 'Pending', 15], ['Testing', 'Pending', 7]] starting at B2, then insert a row at index 4 and write ['Design', 'Done', 10] in row 4, then set the background color of cells C3 and C5 to 'green' and finally write a formula in cell D7 that calculates the total days from D3 to D6": [
+      {
+        "action": "create_workbook"
+      },
+      {
+        "action": "rename_sheet",
+        "new_name": "Milestone_Tracker"
+      },
+      {
+        "action": "write_range",
+        "start_cell": "B2",
+        "values": [
+          [
+            "Phase",
+            "Status",
+            "Days"
+          ],
+          [
+            "Research",
+            "Done",
+            5
+          ],
+          [
+            "Coding",
+            "Pending",
+            15
+          ],
+          [
+            "Testing",
+            "Pending",
+            7
+          ]
+        ]
+      },
+      {
+        "action": "insert_row",
+        "row": 4
+      },
+      {
+        "action": "write_cell",
+        "cell": "B4",
+        "value": "Design"
+      },
+      {
+        "action": "write_cell",
+        "cell": "C4",
+        "value": "Done"
+      },
+      {
+        "action": "write_cell",
+        "cell": "D4",
+        "value": 10
+      },
+      {
+        "action": "set_bg_color",
+        "range": "C3",
+        "color": "00B050"
+      },
+      {
+        "action": "set_bg_color",
+        "range": "C5",
+        "color": "00B050"
+      },
+      {
+        "action": "write_formula",
+        "cell": "D7",
+        "formula": "=SUM(D3:D6)"
+      }
+    ],
+    "add paragraph hello": [
+      {
+        "action": "insert_chart",
+        "range": "A1",
+        "chart_type": "bar"
+      }
+    ],
+    "change text colour to red": [
+      {
+        "action": "set_font_color",
+        "range": "A1",
+        "color": "FF0000"
+      }
+    ],
+    "create new word file": [
+      {
+        "action": "create_workbook"
+      }
+    ],
+    "save file": [
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open word and type hello in red": [
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "hello"
+      }
+    ],
+    "open word and set font colour as red and type hello": [
+      {
+        "action": "set_font_name",
+        "range": "A1",
+        "name": "Colour As Red"
+      },
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "hello"
+      }
+    ],
+    "open word and write hello in red colour": [
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "hello"
+      }
+    ],
+    "set font colour red and type hello how are you": [
+      {
+        "action": "set_font_name",
+        "range": "A1",
+        "name": "Colour Red"
+      },
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "hello how are you"
+      }
+    ],
+    "open word and set font color to red and type hello how are you": [
+      {
+        "action": "set_font_name",
+        "range": "A1",
+        "name": "Color To Red"
+      },
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "hello how are you"
+      }
+    ],
+    "write text \"this should be red\"": [
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "this should be red"
+      }
+    ],
+    "open word and change font colour to green": [
+      {
+        "action": "set_font_name",
+        "range": "A1",
+        "name": "Colour To Green"
+      }
+    ],
+    "in word set font color to red and write text \"this is red\"": [
+      {
+        "action": "set_font_name",
+        "range": "A1",
+        "name": "Color To Red"
+      },
+      {
+        "action": "write_cell",
+        "cell": "A1",
+        "value": "this is red"
+      }
+    ],
+    "open word file with path C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228.docx and change hello to hey": [
+      {
+        "action": "open_workbook",
+        "path": ""
+      }
+    ],
+    "create a new documetn": [
+      {
+        "action": "create_workbook",
+        "{}": {}
+      }
+    ],
+    "create a table with 4 columns and 5 rows": [
+      {
+        "action": "create_table",
+        "rows": 5,
+        "cols": 4,
+        "start_cell": "A1"
+      }
+    ],
+    "bold A1:E1": [
+      {
+        "action": "set_bold",
+        "range": "A1:E1",
+        "bold": true
+      }
+    ],
+    "write 500 in B2 and save": [
+      {
+        "action": "write_cell",
+        "cell": "B2",
+        "value": "500"
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "bold A1 and save": [
+      {
+        "action": "set_bold",
+        "range": "A1",
+        "bold": true
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open workbook \"demo_sales.xlsx\" and save": [
+      {
+        "action": "open_workbook",
+        "path": "demo_sales.xlsx"
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open workbook \"demo_sales.xlsx\" and bold A3:F3 and save": [
+      {
+        "action": "open_workbook",
+        "path": "demo_sales.xlsx"
+      },
+      {
+        "action": "set_bold",
+        "range": "A3:F3",
+        "bold": true
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open workbook \"demo_sales.xlsx\" and write 250 in C13 and save": [
+      {
+        "action": "open_workbook",
+        "path": "demo_sales.xlsx"
+      },
+      {
+        "action": "write_cell",
+        "cell": "C13",
+        "value": "250"
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open workbook \"demo_sales.xlsx\" and set background color yellow in A15:F15 and save": [
+      {
+        "action": "open_workbook",
+        "path": "demo_sales.xlsx"
+      },
+      {
+        "action": "set_bg_color",
+        "range": "A15:F15",
+        "color": "FFFF00"
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open workbook \"demo_sales.xlsx\" and set font color red in C4:C13 and save": [
+      {
+        "action": "open_workbook",
+        "path": "demo_sales.xlsx"
+      },
+      {
+        "action": "set_font_name",
+        "range": "C4:C13",
+        "name": "Calibri"
+      },
+      {
+        "action": "save_workbook"
+      }
+    ],
+    "open workbook \"demo_sales.xlsx\" and sum E4 to E13 in E15 and save": [
+      {
+        "action": "open_workbook",
+        "path": "demo_sales.xlsx"
+      },
+      {
+        "action": "write_formula",
+        "cell": "E15",
+        "formula": "=SUM({range})"
+      },
+      {
+        "action": "save_workbook"
+      }
+    ]
+  },
+  "word": {
+    "add heading Introduction at level 1, add a paragraph with text This is the introduction of the document, set font size 16 for heading 1, set font color blue for heading 1 and set line spacing 1.5 for body and add heading Summary at level 2, add a table with 4 rows and 3 columns, set font Arial for body and set alignment center for heading 2": [
+      {
+        "action": "add_heading",
+        "text": "Introduction",
+        "level": 1
+      },
+      {
+        "action": "add_paragraph",
+        "text": "This is the introduction of the document"
+      },
+      {
+        "action": "set_font_size",
+        "target": "heading_1",
+        "size": 16
+      },
+      {
+        "action": "set_font_color",
+        "target": "heading_1",
+        "color": "blue"
+      },
+      {
+        "action": "set_line_spacing",
+        "target": "body",
+        "spacing": 1.5
+      },
+      {
+        "action": "add_heading",
+        "text": "Summary",
+        "level": 2
+      },
+      {
+        "action": "add_table",
+        "rows": 4,
+        "cols": 3
+      },
+      {
+        "action": "set_font_name",
+        "target": "body",
+        "name": "Arial"
+      },
+      {
+        "action": "set_alignment",
+        "target": "heading_2",
+        "alignment": "center"
+      }
+    ],
+    "bold all heading paragraphs": [
+      {
+        "action": "set_bold",
+        "target": "selection",
+        "bold": true
+      }
+    ],
+    "set alignment center for heading 1": [
+      {
+        "action": "set_alignment",
+        "target": "selection",
+        "alignment": "center"
+      }
+    ],
+    "create a new document": [
+      {
+        "action": "create_document"
+      }
+    ],
+    "create a new file named demo and include a table with 5 rows and 6": [
+      {
+        "action": "create_document"
+      }
+    ],
+    "add a table with 3 rows and 3 columns": [
+      {
+        "action": "add_table",
+        "rows": 3,
+        "cols": 3
+      }
+    ],
+    "add paragraph hello": [
+      {
+        "action": "add_paragraph",
+        "text": "paragraph hello"
+      }
+    ],
+    "change text colour to red": [
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "FF0000"
+      }
+    ],
+    "create new word file": [
+      {
+        "action": "create_document"
+      }
+    ],
+    "type paragraph hello": [
+      {
+        "action": "insert_chart",
+        "chart_type": "bar"
+      }
+    ],
+    "save file": [
+      {
+        "action": "save_document"
+      }
+    ],
+    "write paragraph what are you doing in red colour": [
+      {
+        "action": "add_paragraph",
+        "text": "what are you doing in red colour"
+      }
+    ],
+    "open word and type hello in red": [
+      {
+        "action": "open_document",
+        "path": "C:/doc.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello"
+      },
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "red"
+      }
+    ],
+    "open word": [
+      {
+        "action": "open_document",
+        "path": ""
+      }
+    ],
+    "open word and set font colour as red and type hello": [
+      {
+        "action": "open_document",
+        "path": "C:/doc.docx"
+      },
+      {
+        "action": "set_font_color",
+        "target": "body",
+        "color": "red"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello"
+      }
+    ],
+    "open word and write hello in red colour": [
+      {
+        "action": "open_document",
+        "path": ""
+      },
+      {
+        "action": "add_paragraph",
+        "text": "hello"
+      }
+    ],
+    "set font colour red and type hello how are you": [
+      {
+        "action": "set_font_color",
+        "target": "body",
+        "color": "red"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello how are you"
+      }
+    ],
+    "open word and set font color to red and type hello how are you": [
+      {
+        "action": "open_document",
+        "path": "C:/doc.docx"
+      },
+      {
+        "action": "set_font_color",
+        "target": "body",
+        "color": "red"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello how are you"
+      }
+    ],
+    "delete everything from the word file": [
+      {
+        "action": "clear_range",
+        "range": "1:10000"
+      }
+    ],
+    "Create a Word document, add the text \"This should be red\", change the font color to red, and save it as font_color_test.docx": [
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "FF0000"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "Create a Word document, add the text \"This should be red\", change the font color to red": [
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "FF0000"
+      }
+    ],
+    "write text \"this should be red\"": [
+      {
+        "action": "add_paragraph",
+        "text": "this should be red"
+      }
+    ],
+    "create a new word document, write text \"This should be red\", change text color to red, save as font_color_test.docx": [
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "FF0000"
+      }
+    ],
+    "open word and change font colour to green": [
+      {
+        "action": "open_document",
+        "path": ""
+      },
+      {
+        "action": "set_font_name",
+        "target": "selection",
+        "name": "Colour To Green"
+      }
+    ],
+    "in word set font color to red and write text \"this is red\"": [
+      {
+        "action": "set_font_name",
+        "target": "selection",
+        "name": "Color To Red"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "this is red"
+      }
+    ],
+    "create new document in word and set font colour yellow and type hello": [
+      {
+        "action": "create_document"
+      },
+      {
+        "action": "set_font_color",
+        "target": "body",
+        "color": "yellow"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello"
+      }
+    ],
+    "open word file with path C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228.docx and change hello to hey": [
+      {
+        "action": "open_document",
+        "path": "C:/ai_agent/AI-AGENT/word_20260502_193255_228.docx"
+      },
+      {
+        "action": "find_replace",
+        "find_text": "hello",
+        "replace_text": "hey"
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx\" and write text hello": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "text hello"
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx\" and write text \"This should be red\" and change text color to red and save document": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "This should be red"
+      },
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "FF0000"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx\" and write text \"This should be red\" and change text color to yellow and save document": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "This should be red"
+      },
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "FFFF00"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx\" and write text \"This should be red\" and change text color to green and save document": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "This should be red"
+      },
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "00B050"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx\" and replace \"red\" with \"brown\" and save document": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx"
+      },
+      {
+        "action": "find_replace",
+        "find_text": "red",
+        "replace_text": "brown"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "create a new document word: write text \"Base paragraph for testing\" word: save as word_test.docx": [
+      {
+        "action": "create_document"
+      }
+    ],
+    "create a new documetn": [
+      {
+        "action": "create_document",
+        "{}": {}
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx\"": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228_1.docx"
+      }
+    ],
+    "create new word document": [
+      {
+        "action": "create_document"
+      }
+    ],
+    "write in document \"hello\"": [
+      {
+        "action": "add_paragraph",
+        "text": "hello"
+      }
+    ],
+    "open document \"C:\\ai_agent\\AI-AGENT\\word_20260502_195139_169.docx\"": [
+      {
+        "action": "open_document",
+        "path": "C:\\ai_agent\\AI-AGENT\\word_20260502_195139_169.docx"
+      }
+    ],
+    "open document \"word_test.docx\"": [
+      {
+        "action": "open_document",
+        "path": "word_test.docx"
+      }
+    ],
+    "write text \"this is hello\"": [
+      {
+        "action": "add_paragraph",
+        "text": "this is hello"
+      }
+    ],
+    "create a new document and add heading level 1 with text \"Test Heading\" and save as heading_test.docx": [
+      {
+        "action": "create_document"
+      },
+      {
+        "action": "add_heading",
+        "text": "Test Heading",
+        "level": 1
+      },
+      {
+        "action": "save_document_as",
+        "filename": "heading_test.docx"
+      }
+    ],
+    "create a new document and add heading level 1 with text \"Test Heading\" and save document as \"heading_test.docx\"": [
+      {
+        "action": "create_document"
+      },
+      {
+        "action": "add_heading",
+        "text": "Test Heading",
+        "level": 1
+      },
+      {
+        "action": "save_document_as",
+        "filename": "heading_test.docx"
+      }
+    ],
+    "open document \"heading_test.docx\" and write text \"Hello world\" and bold the text and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello world"
+      },
+      {
+        "action": "set_bold",
+        "target": "selection",
+        "bold": true
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and italic the text and underline the text and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "set_italic",
+        "target": "selection",
+        "italic": true
+      },
+      {
+        "action": "set_underline",
+        "target": "selection",
+        "underline": true
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and change text color to blue and highlight the text yellow and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "set_font_color",
+        "target": "selection",
+        "color": "0070C0"
+      },
+      {
+        "action": "set_highlight",
+        "target": "selection",
+        "color": "FFFF00"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and add a table with 3 rows and 3 columns and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_table",
+        "rows": 3,
+        "cols": 3
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and add bullets apples, bananas, grapes and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_bullet_list",
+        "items": [
+          "add bullets apples",
+          "bananas",
+          "grapes"
+        ]
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and add numbered list one, two, three and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_numbered_list",
+        "items": [
+          "add numbered list one",
+          "two",
+          "three"
+        ]
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and add bullets \"apples\", \"bananas\", \"grapes\"": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_bullet_list",
+        "items": [
+          "apples",
+          "bananas",
+          "grapes"
+        ]
+      }
+    ],
+    "open document \"heading_test.docx\" and set alignment center and set line spacing 1.5 and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "set_alignment",
+        "target": "selection",
+        "alignment": "center"
+      },
+      {
+        "action": "set_line_spacing",
+        "target": "selection",
+        "spacing": 1.5
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and add header \"Header Test\" and add footer \"Footer Test\" and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_header",
+        "text": "Header Test"
+      },
+      {
+        "action": "add_footer",
+        "text": "Footer Test"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and insert page break and insert date and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "insert_page_break"
+      },
+      {
+        "action": "insert_date"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and replace \"Hello world\" with \"Edited text\" and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "find_replace",
+        "find_text": "hello world",
+        "replace_text": "edited text"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"heading_test.docx\" and add bookmark \"bm1\" and add comment \"review this\" and save document": [
+      {
+        "action": "open_document",
+        "path": "heading_test.docx"
+      },
+      {
+        "action": "add_bookmark",
+        "name": "bm1"
+      },
+      {
+        "action": "add_comment",
+        "text": "review this"
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "create document, add heading \"Test Heading\", save as heading_test.docx": [
+      {
+        "action": "save_document_as",
+        "filename": "heading_test.docx"
+      }
+    ],
+    ": create a new document and add heading \"Introduction\" and save as report.docx": [
+      {
+        "action": "create_document"
+      },
+      {
+        "action": "add_heading",
+        "text": "Introduction",
+        "level": 1
+      },
+      {
+        "action": "save_document_as",
+        "filename": "report.docx"
+      }
+    ],
+    "open document \"report.docx\" and write text \"Hello World\" and bold the text and save document": [
+      {
+        "action": "open_document",
+        "path": "report.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello World"
+      },
+      {
+        "action": "set_bold",
+        "target": "selection",
+        "bold": true
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "open document \"report.docx\" and add bullets \"Excel\", \"Word\", \"PowerPoint\" and save document": [
+      {
+        "action": "open_document",
+        "path": "report.docx"
+      },
+      {
+        "action": "add_bullet_list",
+        "items": [
+          "Excel",
+          "Word",
+          "PowerPoint"
+        ]
+      },
+      {
+        "action": "save_document"
+      }
+    ],
+    "create a new document and add heading \"Introduction\" and save as report.docx": [
+      {
+        "action": "create_document"
+      },
+      {
+        "action": "add_heading",
+        "text": "Introduction",
+        "level": 1
+      },
+      {
+        "action": "save_document_as",
+        "filename": "report.docx"
+      }
+    ],
+    "create a new document and add heading \"Introduction\" and save as \"report.docx\"": [
+      {
+        "action": "create_document"
+      },
+      {
+        "action": "add_heading",
+        "text": "Introduction",
+        "level": 1
+      },
+      {
+        "action": "save_document_as",
+        "filename": "report.docx"
+      }
+    ],
+    "open document \"report_1.docx\" and write text \"Hello World\" and bold the text and save document": [
+      {
+        "action": "open_document",
+        "path": "report_1.docx"
+      },
+      {
+        "action": "add_paragraph",
+        "text": "Hello World"
+      },
+      {
+        "action": "set_bold",
+        "target": "selection",
+        "bold": true
+      },
+      {
+        "action": "save_document"
+      }
+    ]
+  },
+  "powerpoint": {
+    "create a new presentation": [
+      {
+        "action": "create_presentation"
+      }
+    ],
+    "add paragraph hello": [
+      {
+        "action": "insert_chart",
+        "slide_index": 0,
+        "chart_type": "bar"
+      }
+    ],
+    "change text colour to red": [
+      {
+        "action": "set_font_color",
+        "target": "body",
+        "slide_index": 0,
+        "color": "FF0000"
+      }
+    ],
+    "save file": [
+      {
+        "action": "save_presentation"
+      }
+    ],
+    "open word and set font colour as red and type hello": [
+      {
+        "action": "set_font_name",
+        "target": "body",
+        "slide_index": 0,
+        "name": "Colour As Red"
+      }
+    ],
+    "set font colour red and type hello how are you": [
+      {
+        "action": "set_font_name",
+        "target": "body",
+        "slide_index": 0,
+        "name": "Colour Red"
+      }
+    ],
+    "open word and set font color to red and type hello how are you": [
+      {
+        "action": "set_font_name",
+        "target": "body",
+        "slide_index": 0,
+        "name": "Color To Red"
+      }
+    ],
+    "open word and change font colour to green": [
+      {
+        "action": "set_font_name",
+        "target": "body",
+        "slide_index": 0,
+        "name": "Colour To Green"
+      }
+    ],
+    "in word set font color to red and write text \"this is red\"": [
+      {
+        "action": "set_font_name",
+        "target": "body",
+        "slide_index": 0,
+        "name": "Color To Red"
+      }
+    ],
+    "open word file with path C:\\ai_agent\\AI-AGENT\\word_20260502_193255_228.docx and change hello to hey": [
+      {
+        "action": "open_presentation",
+        "path": ""
+      }
+    ],
+    "create presentation slide titled AI Automation": [
+      {
+        "action": "set_slide_text",
+        "target": "title",
+        "text": "",
+        "slide_index": 0
+      }
+    ],
+    "add bullet points machine learning, automation, NLP in 20260509_183552_212.pptx": [
+      {
+        "action": "add_bullet_point",
+        "target": "body",
+        "text": "bullet points machine learning, automation, nlp",
+        "slide_index": 0
+      }
+    ]
+  }
+}

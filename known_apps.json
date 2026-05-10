@@ -1,0 +1,42 @@
+{
+  "vscode": {
+    "path": "C:\\Users\\faiza\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "type": "exe"
+  },
+  "chrome music": {
+    "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "type": "exe"
+  },
+  "create workbook": {
+    "path": "C:/Program Files/Microsoft Office/root/Office16/EXCEL.EXE",
+    "type": "exe"
+  },
+  "create workbook and write into cell a1 value 100": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+    "type": "exe"
+  },
+  "create table in excel with 4 rows and 5 columns": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+    "type": "exe"
+  },
+  "powerpoint and write paragraph hello what are you doing": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\POWERPNT.EXE",
+    "type": "exe"
+  },
+  "create word file": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "type": "exe"
+  },
+  "create new word file": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "type": "exe"
+  },
+  "in word set font color to red and write text \"this is red\"": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "type": "exe"
+  },
+  "create a new documetn": {
+    "path": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+    "type": "exe"
+  }
+}
